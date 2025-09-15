@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório</title>
+</head>
+
+<body>
+
+    <h1>Relatório de Vendas</h1>
+
+    <table border="1" width="50%"><!-- TABLE = Tabela-->
+        <caption>Relatório - Renner</caption>
+        <thead><!--THead = Cabeçalho da tabela-->
+
+            <tr><!--  tr = Linha da tabela-->
+                <th>Produto</th><!--th = titulo da tabela-->
+                <th>Quantidade</th>
+                <th>Preço Unitário</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <TBody><!-- TBody = corpo da tabela-->
+            <tr>
+                <td>Camisa</td><!-- td = dado da tabela-->
+                <td>5</td>
+                <td>R$ 50,00</td>
+                <td>R$ 250,00</td>
+            </tr>
+            <tr>
+                <td>Calça</td>
+                <td>2</td>
+                <td>R$ 80,00</td>
+                <td>R$ 160,00</td>
+            </tr>
+            <tr>
+                <td>Tênis</td>
+                <td>10</td>
+                <td>R$ 120,00</td>
+                <td>R$ 1200,00</td>
+            </tr>
+            <tr>
+                <td>Corta Vendo</td>
+                <td>2</td>
+                <td>R$ 200,00</td>
+                <td>R$ 400,00</td>
+            </tr>
+            <tr>
+                <td>Boné</td>
+                <td>5</td>
+                <td>R$ 100,00</td>
+                <td>R$ 500,00</td>
+            </tr>
+        </TBody>
+
+        <TFoot><!-- TFoot = Rodapé da tabela-->
+            <tr>
+                <td colspan="3">Valor Total</td>
+                <td>R$ 2510,00</td>
+            </tr>
+        </TFoot>
+
+
+
+    </table>
+
+    <!--
+        TABLE
+            thead
+                tr,th, td
+            tbody
+                tr,th, td
+            tfoot
+                tr,th,td
+            
+        SIGNIFICADO DAS TAGS
+        TABLE = Tabela
+        THead = Cabeçalho da tabela
+        TBody = corpo da tabela
+        TFoot = Rodapé da tabela
+
+        tr = Linha da tabela
+        th = titulo da tabela
+        td = dado da tabela
+
+        MESCLAR COLUNA = colspan
+        MESCLAR LINHA = rowspan
+
+    -->
+    <br>
+
+    <table border="1" width="50%"><!-- TABLE = Tabela-->
+        <Thead><!--THead = Cabeçalho da tabela-->
+            <tr> <!-- Linha da tabela -->
+                <th>Horário</th><!--titulo da tabela-->
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+            </tr>
+        </Thead>
+        <Tbody> <!-- TBody = corpo da tabela -->
+            <tr>
+                <td>8:00 - 9:00</td>
+                <td rowspan="2">Matemática</td><!-- MESCLAR LINHA = rowspan -->
+                <td>História</td>
+                <td>Português</td>
+            </tr>
+            <tr>
+                <td>9:00 - 10:00</td>
+                <td>Geografia</td>
+                <td>Inglês</td>
+            </tr>
+            <tr>
+                <td colspan="4">Intervalo</td> <!--MESCLAR COLUNA = colspan-->
+            </tr>
+            <tr>
+                <td>10:30 - 11:30</td>
+                <td>Ciências</td>
+                <td rowspan="2">Educação Física</td>
+                <td>Artes</td>
+            </tr>
+
+
+
+            <tr>
+
+                <td>11:30 - 12:30</td>
+                <td>Português</td>
+                <td>História</td>
+            </tr>
+        </Tbody>
+
+
+
+    </table>
+   
+
+</body>
+
+</html>
