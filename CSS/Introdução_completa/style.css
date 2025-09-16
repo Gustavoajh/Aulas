@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+}
+
+h1{
+    background-color: red; 
+    color: aliceblue;
+    margin: 100px;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+.grupo{
+    background-color: chartreuse;
+    color: black;
+    margin: 100px;
+    padding: 200px;
+    border-radius: 20px;
+}
